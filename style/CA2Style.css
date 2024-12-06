@@ -137,7 +137,7 @@ color: #FFD700;
     padding: 20px;
     text-align: justify;
     margin-bottom: 0;
-    margin-top: -10px; 
+    margin-top: 10px; 
     padding-bottom: 50px; 
 }
 .col-lg-7 {
@@ -148,5 +148,12 @@ color: #FFD700;
   margin-left:30px ; 
 }
 .row:last-of-type {
-margin-top: -220px; /* Bring this row closer to the row above */
-margin-bottom: 50px; 
+/* margin-top: -220px; /* Bring this row closer to the row above */
+/* margin-bottom: 50px;  */
+}
+/* allow card title text to overflow */
+.card-title{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
