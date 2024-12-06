@@ -1,7 +1,9 @@
+body {
+   background-color:#F2F2F2;
+}	
 div{
   background-color:#F2F2F2
 }
-  
 .navbar {
   display: flex;
   justify-content: flex-start;
@@ -66,8 +68,69 @@ div{
 }
 
 #image {
-  padding-right: 150px;
-background-color:#0056A6;}
+	padding-right: 150px;
+	background-color:#0056A6;
+}
+
+#contact-image { /* Contact Us image */
+		position:fixed; /* Use fixed to keep the image in place even when scrolling */
+		top: 0; /* Aign to the top */
+		right: 0; /* align top right */
+		margin-top: 10px; /* Add space from the top */
+		margin-right: 10px; /* Add space from the right edge */
+		/*max-width: 200px; *//* Optional: Limit the image size */
+		
+		/* Google Map section styling */
+    #map {
+      height: 400px;
+      width: 100%;
+    }
+}
+
+/* Styles for the Google Map container */
+#map {
+  height: 450px;  /* Set the height of the map */
+  width: 100%;    /* Set the width to full available width */
+  border-radius: 8px; /* Optional: gives rounded corners to the map */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow around the map */
+  margin-top: 20px;  /* Adds space between map and previous content */
+}
+
+/* Style for the "Find Us on Google Map" heading */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFD700;
+  text-align: center; /* Center the heading */
+  margin-top: 20px;
+}
+
+/* Optional: Add style for the paragraph below the heading */
+h3 {
+  font-size: 16px;
+  color: #FFD700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.class {
+	color: #FFD700;
+}
+
+.header h1 {
+	color: #FFD700;
+	text-align: center;
+}
+.title {
+  color: #FFD700;
+  margin-top: 20px;
+  font-size: 2.5em; 
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+
+
+
 
 .footer{
 background-color: #0056A6;
@@ -81,20 +144,17 @@ color: #FFD700;}
       margin-top: -10px; 
     padding-bottom: 50px; 
    
-  }
-
+}
 .col-lg-7 {
     padding: 40px;
 }
-
-
-    .col-lg-5{
-      padding: 50px;
-      margin-left:30px ; 
-    }
-    .row:last-of-type {
-    margin-top: -220px; /* Bring this row closer to the row above */
-    margin-bottom: 50px; 
+.col-lg-5{
+  padding: 50px;
+  margin-left:30px ; 
+}
+.row:last-of-type {
+margin-top: -220px; /* Bring this row closer to the row above */
+margin-bottom: 50px; 
 
 
 
