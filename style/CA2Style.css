@@ -131,15 +131,14 @@ h3 {
 .footer{
 background-color: #0056A6;
 text-align: center;
-color: #FFD700;}
-
+color: #FFD700;
+}
 .row{
     padding: 20px;
     text-align: justify;
-     margin-bottom: 0;
-      margin-top: -10px; 
+    margin-bottom: 0;
+    margin-top: -10px; 
     padding-bottom: 50px; 
-   
 }
 .col-lg-7 {
     padding: 40px;
@@ -151,6 +150,3 @@ color: #FFD700;}
 .row:last-of-type {
 margin-top: -220px; /* Bring this row closer to the row above */
 margin-bottom: 50px; 
-
-
-
