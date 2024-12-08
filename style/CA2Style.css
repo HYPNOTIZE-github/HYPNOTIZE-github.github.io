@@ -237,3 +237,166 @@ color: #FFD700;
 	align-items: flex-start;
 	width: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#membership-image { position:fixed;top: 10px;right: 20px; width: 150Px;	Height: auto;z-index: 10px;}
+
+.contact-info-form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+ gap:50px;
+}
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	gap: 10px 
+	margin-top: 30px;
+	align-items: flex-start;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: Center;
+	align-items: flex-start;
+	width: 50%;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px
+ 
+}
+.contact-item: first-child{
+	margin-left: 10px;
+}
+.contact-icon {
+  width: 40px; 
+  height: 40px;
+  object-fit: contain;
+}
+
+.contact-text p,
+.contact-text a {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+  
+ }
+
+.form-container form{
+	width: 100%;
+}
+.form-label {
+	font-size: 16;
+}
+
+.form-control {
+	width: 100% 
+}
+.btn-success {
+	width: 100% 
+	
+.contact-text strong { color: #2c3e50; }
+
+.contact-text a {  color: #3b5998;
+  text-decoration: none; font-weight: bold;}
+
+.contact-text a:hover { text-decoration: underline; }
+
+   #map {     height: 400px; width: 100%; }
+}
+
+
+#map {
+  height: 900px;  
+  width: 200%;   
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin-top: 20px; 
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFD700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 16px;
+  color: #FFD700;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.class {
+	color: #FFD700;
+}
+
+.header h1 {
+	color: #FFD700;
+	text-align: center;
+}
+.title {
+  color: #FFD700;
+  margin-top: 20px;
+  font-size: 2.5em; 
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }	
+	
+.form-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: SKY blue;
+    border-radius: 8px;
+    box-shadow: Green;
+	}
+	
+.footer{
+background-color: #0056A6;
+text-align: center;
+color: #FFD700;}
+
+.row{
+      padding: 20px;}
+.col-lg-7 {
+    padding: 40px;
+}
+
+.col-lg-5 {
+      padding:20px;
+    }
