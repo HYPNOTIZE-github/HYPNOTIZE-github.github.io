@@ -13,7 +13,9 @@ div{
 }
 .title{
   background-color:#0056A6;
+  margin-left: -120px;
 }
+
 .carousel-caption{
   background-color:#0056A6;
   color: #FFD700;
