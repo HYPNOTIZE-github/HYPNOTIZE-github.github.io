@@ -163,3 +163,77 @@ color: #FFD700;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+
+
+
+
+
+
+/* Facebook Styling */
+.contact-text strong {
+  color: #2c3e50; /* Dark color for labels */
+}
+
+.contact-text a {
+  color: #3b5998; /* Facebook's brand color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+}
+
+.contact-text a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px
+  /*margin-left: 10px;
+  margin-right: 10px;*/
+}
+.contact-item: first-child{
+	margin-left: 10px;
+}
+.contact-icon {
+  width: 40px; /* Icon size */
+  height: 40px;
+  object-fit: contain;
+}
+.contact-text p,
+.contact-text a {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+  
+ }
+ #contact-image { /* Contact Us image */
+		position:fixed; /* Use fixed to keep the image in place even when scrolling */
+		top: 10px; /* Aign to the top */
+		right: 20px; /* align top right */
+		width: 150Px;
+		Height: auto;
+		z-index: 10px;
+}
+/* General Contact Information Styling */
+.contact-info-form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the right */
+ gap:50px;
+}
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	gap: 10px 
+	margin-top: 30px;
+	align-items: flex-start;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: Center;
+	align-items: flex-start;
+	width: 50%;
+}
